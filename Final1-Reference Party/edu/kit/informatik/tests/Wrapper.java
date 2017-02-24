@@ -1,7 +1,5 @@
 package edu.kit.informatik.tests;
 
-import edu.kit.informatik.library.management.Main;
-
 /**
  * Wrapper class for testing
  * 
@@ -15,7 +13,7 @@ public class Wrapper {
     public static void main(String[] args) {
         
         // adjust to fit your project setup
-        Main.main(args);
+        MyMainClass.main(args);
         
     }
     

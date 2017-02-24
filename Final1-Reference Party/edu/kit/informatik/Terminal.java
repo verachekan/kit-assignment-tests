@@ -1,7 +1,6 @@
 package edu.kit.informatik;
 
 import org.hamcrest.Matcher;
-import org.junit.jupiter.api.Assertions;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

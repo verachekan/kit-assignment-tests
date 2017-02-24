@@ -223,7 +223,7 @@ public class Terminal {
      * @param input
      * @param expectedOutput
      */
-    private static void addMultipleLinesOutputThatIsExactly(String input, String... expectedOutput) {
+    public static void addMultipleLinesOutputThatIsExactly(String input, String... expectedOutput) {
         addMultipleLineOutputThatMatches(input, contains(expectedOutput));
     }
 
